@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:padding="30dp">
+    android:padding="32dp"
+    android:gravity="center">
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,23 +12,22 @@
         android:text="Create Account"
         android:textSize="28sp"
         android:textStyle="bold"
-        android:layout_marginBottom="30dp"/>
+        android:layout_marginBottom="24dp"/>
 
     <EditText
         android:id="@+id/etName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Full Name"
-        android:padding="15dp"/>
+        android:layout_marginBottom="16dp"/>
 
     <EditText
         android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
+        android:hint="Email Address"
         android:inputType="textEmailAddress"
-        android:padding="15dp"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginBottom="16dp"/>
 
     <EditText
         android:id="@+id/etPassword"
@@ -36,21 +35,13 @@
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword"
-        android:padding="15dp"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginBottom="24dp"/>
 
     <Button
         android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="REGISTER"
-        android:layout_marginTop="25dp"/>
-
-    <TextView
-        android:id="@+id/tvLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Already have an account? Login"
-        android:layout_marginTop="20dp"/>
-
+        android:text="Register"
+        android:backgroundTint="#1976D2"
+        android:textColor="@android:color/white"/>
 </LinearLayout>
