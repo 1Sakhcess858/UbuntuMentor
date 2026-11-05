@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UbuntuMentor</string>
+
+    <!-- Login -->
+    <string name="login_title">UbuntuMentor</string>
+    <string name="email_hint">Ikheli le-imeyili</string>
+    <string name="password_hint">Iphasiwedi</string>
+    <string name="login_button">Ngena ngemvume</string>
+    <string name="register_link">Awunayo i-akhawunti? Bhalisa lapha</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Izilungiselelo</string>
+    <string name="language_title">Ulimi lohlelo</string>
+    <string name="notifications_title">Izaziso</string>
+    <string name="notifications_toggle">Thola izaziso</string>
+    <string name="notifications_description">Vula noma uvale izaziso ze-UbuntuMentor.</string>
+    <string name="logout_button">Phuma</string>
+
+    <!-- Language options -->
+    <string name="language_english">IsiNgisi</string>
+    <string name="language_afrikaans">IsiBhunu</string>
+    <string name="language_zulu">isiZulu</string>
+
+    <string name="dashboard_welcome_default">Siyakwamukela ku-UbuntuMentor</string>
+    <string name="dashboard_welcome">Siyakwamukela, %1$s!</string>
+    <string name="dashboard_profile">Iphrofayela Yami</string>
+    <string name="dashboard_opportunities">Amathuba Atholakalayo</string>
+</resources>

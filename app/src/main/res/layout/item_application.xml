@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="#F1F5F9">
+
+    <TextView
+        android:id="@+id/txtApplicationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#0F172A" />
+
+    <TextView
+        android:id="@+id/txtApplicationProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/txtApplicationDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Application status"
+        android:textStyle="bold"
+        android:layout_marginTop="14dp" />
+
+    <Spinner
+        android:id="@+id/spinnerApplicationStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/editApplicationNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="90dp"
+        android:gravity="top"
+        android:hint="Interview date, reference number, or other notes"
+        android:inputType="textCapSentences|textMultiLine"
+        android:padding="10dp"
+        android:background="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnSaveApplicationNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Notes"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnDeleteApplication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Application"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

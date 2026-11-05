@@ -29,7 +29,7 @@ interface ApiService {
 // Retrofit Object
 object ApiClient {
     // 10.0.2.2 is how the Android Emulator talks to your PC's localhost
-    private const val BASE_URL = "http://10.0.2.2:3000/"
+    private const val BASE_URL = "http://192.168.1.101:3000/"
 
     val apiService: ApiService by lazy {
         Retrofit.Builder()

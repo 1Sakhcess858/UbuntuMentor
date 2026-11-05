@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "316104145736",
+    "project_id": "ubuntumentor-3fea4",
+    "storage_bucket": "ubuntumentor-3fea4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316104145736:android:e6a6225afdae75375e517d",
+        "android_client_info": {
+          "package_name": "com.example.ubuntumentor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316104145736-oi659us378al3vfapnf5k8pkirnuptn6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ubuntumentor",
+            "certificate_hash": "99e0163e43848bcaad9aa9e20142e4defddb0793"
+          }
+        },
+        {
+          "client_id": "316104145736-cn78r0r03rgnrhvigv4o5qa2cuq5tg65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALnfD-38UGelWQU74JW11IgzrfgeLNhis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316104145736-cn78r0r03rgnrhvigv4o5qa2cuq5tg65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

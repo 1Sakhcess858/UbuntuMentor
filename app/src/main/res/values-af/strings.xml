@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UbuntuMentor</string>
+    <string name="login_title">UbuntuMentor</string>
+    <string name="email_hint">E-posadres</string>
+    <string name="password_hint">Wagwoord</string>
+    <string name="login_button">Teken in</string>
+    <string name="register_link">Het jy nie ’n rekening nie? Registreer hier</string>
+    <string name="settings_title">Instellings</string>
+    <string name="language_title">Programtaal</string>
+    <string name="notifications_title">Kennisgewings</string>
+    <string name="notifications_toggle">Ontvang kennisgewings</string>
+    <string name="notifications_description">Skakel UbuntuMentor-kennisgewings aan of af.</string>
+    <string name="logout_button">Teken uit</string>
+    <string name="language_english">Engels</string>
+    <string name="language_afrikaans">Afrikaans</string>
+    <string name="language_zulu">isiZulu</string>
+    <string name="dashboard_welcome_default">Welkom by UbuntuMentor</string>
+    <string name="dashboard_welcome">Welkom, %1$s!</string>
+    <string name="dashboard_profile">My Profiel</string>
+    <string name="dashboard_opportunities">Beskikbare Geleenthede</string>
+</resources>

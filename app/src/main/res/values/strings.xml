@@ -1,3 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">UbuntuMentor</string>
+
+    <!-- Login -->
+    <string name="login_title">UbuntuMentor</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_link">Don\'t have an account? Register here</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome_default">Welcome to UbuntuMentor</string>
+    <string name="dashboard_welcome">Welcome, %1$s!</string>
+    <string name="dashboard_profile">My Profile</string>
+    <string name="dashboard_opportunities">Available Opportunities</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="language_title">App Language</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_toggle">Receive notifications</string>
+    <string name="notifications_description">Turn notifications on or off for UbuntuMentor.</string>
+    <string name="logout_button">Log Out</string>
+
+    <!-- Language options -->
+    <string name="language_english">English</string>
+    <string name="language_afrikaans">Afrikaans</string>
+    <string name="language_zulu">isiZulu</string>
 </resources>
